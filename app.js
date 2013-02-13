@@ -19,7 +19,14 @@ var app = express.createServer();
 app.configure(function () {
   app.use(express.static(__dirname + '/public'));
   app.set('views', __dirname);
-  app.set('view engine', 'jade');
+  //app.set('view engine', 'jade');
+  app.register('.html', {
+    compile: function(str, options){
+      return function(locals){
+        return str;
+      };
+    }
+  });
 });
 
 /**
@@ -27,7 +34,7 @@ app.configure(function () {
  */
 
 app.get('/', function (req, res) {
-  res.render('index', { layout: false });
+  res.render('index.html', { layout: false });
 });
 
 /**
