@@ -34,6 +34,7 @@ var app = express.createServer();
 
 app.configure(function () {
   app.use(express.static(__dirname + '/public'));
+  app.use(express.bodyParser());
   app.set('views', __dirname);
   //app.set('view engine', 'jade');
   app.register('.html', {
