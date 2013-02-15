@@ -62,40 +62,25 @@
         </div>
 
         <!-- Social -->
-        <div class="row bottom-small-spacer hidden-phone">
-          <div class="span4">
+        <div class="row bottom-small-spacer">
+          <!-- Desktop -->
+          <div class="span4 hidden-phone">
             <p class="justify"><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars. Inspired by hard science fiction and science fact, it is a surreal journey through space and the mind to explore the scope of human achievement, and to find a home within the cosmos.</p>
             <p class="justify">Out in 2013 for Linux, Mac, and Windows.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
           </div>
-          <div class="span2 offset1">
-            <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="140px" /></a>
+
+          <!-- Phone -->
+          <div class="span4 center visible-phone">
+            <p><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars. Inspired by hard science fiction and science fact, it is a surreal journey through space and the mind to explore the scope of human achievement, and to find a home within the cosmos.</p>
+            <p>Out in 2013 for Linux, Mac, and Windows.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
           </div>
+
+          <div class="span2 offset1">
+            <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="140px"/></a>
+          </div>
+
           <div class="span4 offset1">
             <h3>Subscribe To The Mailing List</h3>
-            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
-              <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
-              <input class="subscribe" name="commit" type="submit" value="Subscribe" />
-              <div style="height:25px" id="response">
-                We'll only email for big updates
-              </div>
-            </form>
-            <div class="fb-like" data-href="https://www.facebook.com/RedRoverGame" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div> 
-            <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="row bottom-small-spacer center visible-phone">
-          <div class="span4">
-            <p class="justify"><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars. Inspired by hard science fiction and science fact, it is a surreal journey through space and the mind to explore the scope of human achievement, and to find a home within the cosmos.</p>
-            <p class="justify">Out in 2013 for Linux, Mac, and Windows.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
-          </div>
-
-          <a href="http://www.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode-phone']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="140px" class="top-med-spacer bottom-med-spacer" /></a>
-
-          <div class="span4 offset1">
-            <p>Subscribe To The Mailing List</p>
             <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
               <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
               <input class="subscribe" name="commit" type="submit" value="Subscribe" />
