@@ -13,3 +13,9 @@ h1 {
 .links a {
   color: #FFF;
 }
+
+.textfield {
+  width: 170px;
+  margin-right: 5px;
+  margin-top: 10px;
+}

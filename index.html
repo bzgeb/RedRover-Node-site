@@ -39,13 +39,13 @@
     </head>
     <body>
       <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
       <div class="container">
         <!-- Title -->
         <div class="row bottom-large-spacer top-small-spacer">
@@ -66,38 +66,60 @@
           <div class="span4">
             <p class="justify"><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars. Inspired by hard science fiction and science fact, it is a surreal journey through space and the mind to explore the scope of human achievement, and to find a home within the cosmos.</p>
             <p class="justify">Out in 2013 for Linux, Mac, and Windows.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
-            <!--<a href="http://twitter.com/newton64/" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Twitter']);"><img alt="Twittericon" src="/images/twittericon.png" width="140px" /></a>-->
           </div>
           <div class="span2 offset1">
             <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="140px" /></a>
           </div>
-          <!--<div class="span2 offset2">
-            <a href="https://www.facebook.com/redrovergame"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Facebook']);"><img alt="Fbicon" src="/images/fbicon.png" width="140px" /></a>
-          </div>-->
           <div class="span4 offset1">
-              <p>Subscribe To The Mailing List</p>
-              <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
-                  <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
-                  <input class="subscribe" name="commit" type="submit" value="Subscribe" />
-                  <div style="height:25px" id="response">
-                      We'll only email for big updates
-                  </div>
-              </form>
-              <div class="fb-like" data-href="https://www.facebook.com/RedRoverGame" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div> 
-              <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <p>Subscribe To The Mailing List</p>
+            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+              <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+              <input class="subscribe" name="commit" type="submit" value="Subscribe" />
+              <div style="height:25px" id="response">
+                We'll only email for big updates
+              </div>
+            </form>
+            <div class="fb-like" data-href="https://www.facebook.com/RedRoverGame" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div> 
+            <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
         </div>
 
         <!-- Phone -->
         <div class="row bottom-small-spacer center visible-phone">
-          <a href="http://twitter.com/newton64/" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Twitter-phone']);"><img alt="Twittericon" src="/images/twittericon.png" width="80px" /></a>
-          <a href="http://www.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode-phone']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="80px" /></a>
-          <a href="https://www.facebook.com/redrovergame" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'Facebook-phone']);"><img alt="Fbicon" src="/images/fbicon.png" width="80px" /></a>
+          <div class="span4">
+            <p class="justify"><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars. Inspired by hard science fiction and science fact, it is a surreal journey through space and the mind to explore the scope of human achievement, and to find a home within the cosmos.</p>
+            <p class="justify">Out in 2013 for Linux, Mac, and Windows.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
+          </div>
+
+          <a href="http://www.ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode-phone']);"><img alt="Ko-opicon" src="/images/ko-opicon.png" width="80px" class="top-med-spacer bottom-med-spacer" /></a>
+
+          <div class="span4 offset1">
+            <p>Subscribe To The Mailing List</p>
+            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+              <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+              <input class="subscribe" name="commit" type="submit" value="Subscribe" />
+              <div style="height:25px" id="response">
+                We'll only email for big updates
+              </div>
+            </form>
+            <div class="fb-like" data-href="https://www.facebook.com/RedRoverGame" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div> 
+            <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
         </div>
 
         <!-- Banner -->
         <div class="row">
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <img src="/images/pyramid.png" width="100%">
+          </div>
+          <div class="span12" align="center">
+            <img src="/images/mars.png" width="155px">
+          </div>
         </div>
 
         <!-- Links -->
@@ -135,5 +157,5 @@
 
     </script>
 
-  </body>
-  </html>
+</body>
+</html>
