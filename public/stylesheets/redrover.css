@@ -19,3 +19,28 @@ h1 {
   margin-right: 5px;
   margin-top: 10px;
 }
+.subscribe {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e8dce8), color-stop(1, #bdbdbd) );
+    background:-moz-linear-gradient( center top, #e8dce8 5%, #bdbdbd 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8dce8', endColorstr='#bdbdbd');
+    background-color:#e8dce8;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b3b3b3;
+    display:inline-block;
+    color:#000000;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:normal;
+    padding:6px 16px;
+    text-decoration:none;
+}.subscribe:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bdbdbd), color-stop(1, #e8dce8) );
+    background:-moz-linear-gradient( center top, #bdbdbd 5%, #e8dce8 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bdbdbd', endColorstr='#e8dce8');
+    background-color:#bdbdbd;
+}.subscribe:active {
+    position:relative;
+    top:1px;
+}
