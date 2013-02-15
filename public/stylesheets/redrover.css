@@ -1,0 +1,15 @@
+body {
+  background-color: white;
+  background-image: url("/images/starbackground.png");
+  color: #FFF;
+  font-family: 'Arimo', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.links a {
+  color: #FFF;
+}
